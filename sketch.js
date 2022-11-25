@@ -12,6 +12,9 @@
    // YURI.play(); //
 }
 
+var song;
+var button;
+
 function setup()
 {
     createCanvas(200,200)
