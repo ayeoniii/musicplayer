@@ -1,47 +1,35 @@
-//let YURI;
-//function setup()
-{
-   // soundFormats('mp3', 'ogg');
-   // YURI = loadSound('Blank',loadMusic);
-   // YURI.play();
-}
-
-
-//function loadMusic()
-{
-   // YURI.play(); //
-}
-
-var song;
-var button;
+let YURI;
+let button;
 
 function setup()
 {
-    createCanvas(200,200)
-    button = createButton('play');
-    song = loadSound('Blank',loaded);
-    button.mousePressed(togglePlaying);
-    background(51);
+   createCanvas(640,480)
+   soundFormats('mp3', 'ogg');
+   YURI = loadSound('Blank',loadMusic);
+   // YURI.play();
+   button = createButton('play');
+   button.mousePressed(togglePlaying);
 }
 
+
 function togglePlaying(){
-    if(!song.isPlaying()){
-        song.play();
-        song.setVolume(0.3);
+    if(!YURI.isPlaying()){
+        YURI.play();
         button.html('pause');
     } else {
-        song.stop();
+        YURI.stop();
         button.html('play');
     }
 }
 
- funtion loaded(){
-     console.log(loaded');
+ funtion loaded()
+{
+     console.lo"It's Working");
      }
     
-//function draw()
+function draw()
 {
-    //fill(180,0,0);
-    //ellipse(50,50,50,50);
+   fill(180,0,0);
+   ellipse(50,50,50,50);
 
 }
