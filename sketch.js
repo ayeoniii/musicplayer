@@ -3,9 +3,9 @@ let button;
 
 function setup()
 {
-   createCanvas(640,480);
+   createCanvas(640, 480);
    soundFormats('mp3', 'ogg');
-   YURI = loadSound('Blank',loadMusic);
+   YURI = loadSound('Blank', loadMusic);
    // YURI.play();
    button = createButton("play");
    button.mousePressed(togglePlaying);
