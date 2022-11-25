@@ -22,7 +22,7 @@ function togglePlaying(){
     }
 }
 
- funtion loaded()
+ function loadMusic()
 {
      console.log("It's Working");
      }
