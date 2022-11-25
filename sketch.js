@@ -7,7 +7,7 @@ function setup()
    soundFormats('mp3', 'ogg');
    YURI = loadSound('Blank',loadMusic);
    // YURI.play();
-   button = createButton('play');
+   button = createButton("play");
    button.mousePressed(togglePlaying);
 }
 
@@ -24,12 +24,12 @@ function togglePlaying(){
 
  funtion loaded()
 {
-     console.lo"It's Working");
+     console.log("It's Working");
      }
     
 function draw()
 {
-   fill(180,0,0);
-   ellipse(50,50,50,50);
+   fill(180, 0, 0);
+   ellipse(50, 50, 50, 50);
 
 }
